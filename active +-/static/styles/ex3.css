@@ -1,0 +1,323 @@
+.tg {
+    border-radius: 30px;
+    margin-top: 18px;
+    margin-left: 740px;
+    position: absolute;
+    width: 80px;
+    height: 38px;
+    transition: 0.5s;
+}
+.tg>span {
+    opacity: 0;
+}
+#icon2 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 750px;
+    width: 33px;
+    transition: 0.5s;
+}
+#icon {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 780px;
+    width: 32px;
+    transition: 0.5s;
+}
+#fg1-1,#fg2-2,#fg3-3 {
+    position: absolute;
+    margin-top: 15px;
+    width: 28px;
+    transition: all 0.5s;
+}
+#fg1,#fg2,#fg3 {
+    margin-top: 15px;
+    width: 28px;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+a {
+    text-decoration: none;
+}
+.main {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    max-width: 845px;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 0 0 15px -4px;
+    transition: all 0.5s;
+}
+.content {
+    display: flex;
+    max-width: 900px;
+}
+.right {
+    width: 55%;
+}
+.left {
+    width: 45%;
+}
+.right>p {
+    font-size: 20px;
+    margin-bottom: -50px;
+    margin-left: 25px;
+    transition: all 0.5s;
+}
+.left>p {
+    font-size: 20px;
+    margin-bottom: -50px;
+    margin-left: -10px;
+    transition: all 0.5s;
+}
+.registr {
+    margin-top: 80px;
+    margin-left: 25px;
+}
+.username,.email-address,.inline {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+input {
+    background-color: #4d6ecf00;
+    padding-top: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    padding-bottom: 5px;
+    transition: all 0.5s;
+}
+input:focus {
+    outline: none;
+    border-color:  rgb(68, 68, 68);
+}
+input::placeholder {
+    transition: all 0.3s;
+    color:  rgb(124, 124, 124);
+    font-size: 12px;
+    padding-left: 7px;
+}
+#in1,#in2 {
+    width: 355px;
+}
+#in3 {
+    margin-right: 13px;
+}
+/*  */
+.check {
+    margin-left: 28px;
+    display: flex;
+    flex-direction: column;
+}
+.check1 {
+    margin-bottom: -12px;
+}
+.check1,.check2 {
+    display: flex;
+}
+.check>div>p {
+    font-size: 14px;
+    margin-left: 8px;
+    transition: all 0.5s;
+}
+.personal {
+    margin-left: -15px;
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+}
+#in5,#in7 {
+    margin-right: 13px;
+}
+.up {
+    margin-bottom: 35px;
+}
+.up,.down {
+    display: flex; 
+}
+/*  */
+.submit {
+    margin-top: 50px;
+    width: 812px;
+    display: flex;
+    justify-content: end;
+}
+.submit>a>button {
+    background-color: #4169E1;
+    color: white;
+    font-size: 11px;
+    border: none;
+    border-radius: 3px;
+    padding-inline: 45px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.submit>a>button:hover {
+    background-color: #2f4ca5;
+}
+
+
+/*  */
+
+
+
+#in1:focus::placeholder {
+    transform: translateX(-5px) translateY(-18px); 
+    font-size: 11px;
+    transition: all 0.3s;
+    color: rgb(165, 165, 165);
+}
+#in2:focus::placeholder {
+    transform: translateX(-5px) translateY(-18px); 
+    font-size: 11px;
+    transition: all 0.3s;
+    color: rgb(165, 165, 165);
+}
+#in3:focus::placeholder {
+    transform: translateX(-5px) translateY(-18px); 
+    font-size: 11px;
+    transition: all 0.3s;
+    color: rgb(165, 165, 165);
+}
+#in4:focus::placeholder {
+    transform: translateX(-5px) translateY(-18px); 
+    font-size: 11px;
+    transition: all 0.3s;
+    color: rgb(165, 165, 165);
+}
+#in5:focus::placeholder {
+    transform: translateX(-5px) translateY(-18px); 
+    font-size: 11px;
+    transition: all 0.3s;
+    color: rgb(165, 165, 165);
+}
+#in6:focus::placeholder {
+    transform: translateX(-5px) translateY(-18px); 
+    font-size: 11px;
+    transition: all 0.3s;
+    color: rgb(165, 165, 165);
+}
+#in7:focus::placeholder {
+    transform: translateX(-5px) translateY(-18px); 
+    font-size: 11px;
+    transition: all 0.3s;
+    color: rgb(165, 165, 165);
+}
+#in8:focus::placeholder {
+    transform: translateX(-5px) translateY(-18px); 
+    font-size: 11px;
+    transition: all 0.3s;
+    color: rgb(165, 165, 165);
+}
+.fg {
+    animation: h 1.4s infinite;
+}
+@keyframes h {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    10% {
+        transform: translateX(-2px) translateY(-1px);
+    }
+    20% {
+        transform: translateX(2px) translateY(-1px);
+    }
+    30% {
+        transform: translateX(-2px) translateY(-1px);
+    }
+    40% {
+        transform: translateX(2px) translateY(-1px);
+    }
+    50% {
+        transform: translateX(-2px) translateY(-1px);
+    }
+    60% {
+        transform: translateX(2px) translateY(-1px);
+    }
+    70% {
+        transform: translateX(-2px) translateY(-1px);
+    }
+    80% {
+        transform: translateX(2px) translateY(-1px);
+    }
+    90% {
+        transform: translateX(-2px) translateY(-1px);
+    }
+    100% {
+        transform: translateX(0px) translateY(0px);
+    }
+}
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.icon-main {
+    background-color: rgb(41, 41, 41);
+    transition: all 0.5s;
+}
+.icon-input {
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+.icon-input-focus {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.icon-p {
+    color: white;
+    transition: all 0.5s;
+}
+/*  */
+.s1 {
+    opacity: 1;
+    transition: 0.5s;
+}
+.s0 {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.ga1 {
+    animation: gadjishka1 1s;
+}
+.ga2 {
+    animation: gadjishka2 1s;
+}
+@keyframes gadjishka1 {
+    0% {
+        transform: translateX(0px)
+    }
+    35% {
+        transform: translateX(10px)
+    }
+    70% {
+        transform: translateX(20px)
+    }
+    100% {
+        transform: translateX(30px)
+    }
+}
+@keyframes gadjishka2 {
+    0% {
+        transform: translateX(0px)
+    }
+    35% {
+        transform: translateX(-10px)
+    }
+    70% {
+        transform: translateX(-20px)
+    }
+    100% {
+        transform: translateX(-30px)
+    }
+}
+.btn2 {
+    background-color: rgb(41, 41, 41);
+    transition: 0.5s;
+    box-shadow: 0 0 15px -2px black;
+}
+.btn1 {
+    background-color: #ffffff;
+    transition: 0.5s;
+    box-shadow: 0 0 15px -2px white
+}
